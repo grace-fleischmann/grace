@@ -202,5 +202,3 @@ print(f"Hello, my name is {name}") # prints the same thing, but instead makes it
 # b) ls -l, gives detailed information about the file 
 # c) rm -rf, recustivley removes files
 
-print( 14 // 3
-      )

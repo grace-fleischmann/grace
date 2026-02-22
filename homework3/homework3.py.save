@@ -1,0 +1,113 @@
+#homework3
+
+# --- print functions ---
+# --say goodbye---
+def say_goodbye(name):
+    print("Goodbye, " + name )
+
+# --- area of a circle ---
+
+def area_of_circle(radius):
+    pi = 3.14
+    print(pi * radius ** 2)
+
+# --- retuern statements ---
+def subtract(a,b):
+    return a - b
+def multiply(a,b):
+    return a * b
+def divide(a,b):
+    if b != 0:
+        return a / b
+    else:
+        return "Error: Division by zero is not allowed."
+
+# --- conditionals ---
+# - what shoul i wear -
+tempertures = [42,47, 55, 60,75]
+def return_max_and_min(temperatures):
+    max_temp = max(temperatures)
+    min_temp = min(temperatures)
+    return max_temp, min_temp
+
+# - check if its the weekend - 
+def is_weekend(num):
+    if num == 6 or num == 7:
+        return True
+    else:
+        return False
+# - fuel efficiency -
+def fuel_efficiency(miles, gallons):
+    if gallons != 0:
+        return miles / gallons
+    else:
+        return "Error: Gallons cannot be zero."
+# - secret code -
+def secret_code(num):
+    last_digit = num % 10
+    other_digits = num // 10
+    power_of_ten = 10**len(str(abs(other_digits)))
+    new_num = last_digit * power_of_ten + other_digits 
+    return new_num
+
+
+# --- loops ---
+# - oski stole your power- 
+def power(base, exponent):
+    result = 1
+    for i in range(exponent):
+        result *= base
+    return result
+# - min and max - 
+# for loops 
+list_of_numbers = [3,43,245,2,64,734,6,34,865,234,57]
+def fake_min(numbers): 
+    smallest = numbers[0]
+    for num in numbers:
+        if num < smallest:
+            smallest = num
+    return smallest
+
+def fake_max(numbers): 
+    biggest = numbers[0]
+    for num in numbers:
+        if num > biggest:
+            biggest = num
+    return biggest
+
+# while loops 
+def find_min(numbers):
+    min_num = numbers[0]
+    i = 0
+    list_length = len(numbers)
+    while i< list_length:
+        current_num = numbers[i]
+        if current_num < min_num:
+            min_num = current_num
+        i += 1
+    return min_num
+def find_max(numbers):
+    max_num = numbers[0]
+    i = 0
+    list_length = len(numbers)
+    while i< list_length:
+        current_num = numbers[i]
+        if current_num > max_num:
+            max_num = current_num 
+        i += 1
+    return max_num
+
+# - calculate sum - 
+def sum_of_digits(value): 
+    total = 0 
+    while value > 0: 
+        digit = value % 10 
+        total += digit 
+        value //= 10
+    return total 
+
+#favorite function output
+
+result = secret_code(1873) # outputs 3187
+
+print(f"The result of the secret code (5.4) with the input 1873 is {result}")
