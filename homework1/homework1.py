@@ -188,9 +188,7 @@ print(f"Hello, my name is {name}") # prints the same thing, but instead makes it
 #ex clear 
 #grep 
 # searches for a type of file
-#ex grep "python" notes.txt
-
-#questions
+#ex grep "python" notes.t#questions
 #1. 3 other commands :
 # a) rmdir, deletes empty direcorties, ex: rimdi directory_name
 # b) locate, tells you the direcroty path of a specific file, ex: locate lecture_notes
@@ -202,5 +200,7 @@ print(f"Hello, my name is {name}") # prints the same thing, but instead makes it
 # b) ls -l, gives detailed information about the file 
 # c) rm -rf, recustivley removes files
 
+ HEAD
 print( 14 // 3
       )
+ b204e8f
