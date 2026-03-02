@@ -1,0 +1,24 @@
+1. List 5 topics related to astronomy, physics, technology, science or math that sound interesting
+to you.
+	Black holes, pulsars, cardinality, dark matter, optimization
+
+2. For three of these topics, find a dataset, tool, news article, or paper online that relates to it.
+Summarize how each source relates to the topic in your own words.
+	a) black holes: 
+		https://journals-aps-org.libproxy.berkeley.edu/prd/abstract/10.1103/cwsc-p4v8
+		this source details a new way to count the amount of primordial black holes in a given area 
+	b) pulsars
+		https://journals-aps-org.libproxy.berkeley.edu/prd/abstract/10.1103/dkjh-kfqf
+		this journal is applying a new type of search to find gravetational waves of pulsars that provide more information than the conventional methods 
+	c)optimization
+		https://www-sciencedirect-com.libproxy.berkeley.edu/science/article/pii/S0045782522006077
+		using the double slit expeiriment for complex optimization problems 
+
+3. Choose one topic and brainstorm how you could Python skills (loops, conditionals, functions,
+lists/dictionaries, github, version control) to explore, analyze or create something with it.
+	pulsars: can use loops to analyze patterns in the data, and can use conditionals to find discrepencies 
+4. Write down at least two possible project ideas connected to your topic. One should be
+ambitious (a “dream” version) and the other should be smaller, simpler version that you
+could realistically finish in a few weeks.
+	dream - take the key characteristics of each pulsar and determine which are most stable and spin fastest etc 
+	realistic - compute the first and second time derivatives and identify the pulsars that have an unusal drift 
